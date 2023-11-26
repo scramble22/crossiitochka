@@ -73,13 +73,17 @@ a {
 	border-radius: 12px;
 	max-width: 1200px;
 	padding-bottom: 0.1px;
-	transition: box-shadow ease-in-out 200ms;
+	transition: transform ease-in-out 300ms, box-shadow ease-in-out 200ms;
 }
 
 .container:hover{
 	box-shadow: 0px 5px 100px #bfbfbf;
-	position: relative;
-	bottom: 10px;
+	transform: translate(0px, -2px);
+}
+
+.container:active{
+	box-shadow: 0px 5px 100px #bfbfbf;
+	transform: translate(0px, -10px);
 }
 
 /*.card:hover {
@@ -100,6 +104,14 @@ a {
 
 	gap: 30px;
 	padding-bottom: 25px;
+
+	max-width: 1173px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
 /*мейн*/
 
@@ -357,7 +369,7 @@ p {
 
 	.container-cross {
 		width: 343px;
-		height: 1750px;
+		height: 1800px;
 	}
 
 	.photo_cross {
@@ -394,7 +406,8 @@ p {
 	}
 
 	.cont-param {
-		top: 1689px;
+		margin-left: 2px;
+		top: 1745px;
 		width: 295px;
 		height: 240px;
 		left: 40px;
