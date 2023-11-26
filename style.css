@@ -88,6 +88,7 @@ a {
 .abag {
 	height: 254px; 
 	width: 372px;
+	border-radius: 15px;
 }
 
 .cards {
@@ -323,6 +324,8 @@ p {
 
 	.abag {
 		height: 254px;
+		width: 340px;
+		border-radius: 15px;
 	}
 
 
@@ -354,7 +357,7 @@ p {
 
 	.container-cross {
 		width: 343px;
-		height: 1700px;
+		height: 1750px;
 	}
 
 	.photo_cross {
@@ -391,7 +394,7 @@ p {
 	}
 
 	.cont-param {
-		top: 1625px;
+		top: 1689px;
 		width: 295px;
 		height: 240px;
 		left: 40px;
@@ -402,11 +405,11 @@ p {
 	}
 
 	.cont-param-big {
-		top: 1744px;
+		top: 1801px;
 	}
 
 	.container-cross-big {
-		height: 1798px;
+		height: 1858px;
 	}
 
 } 
