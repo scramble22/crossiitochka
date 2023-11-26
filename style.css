@@ -260,7 +260,7 @@ p {
 
 
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 400px) {
 	.header{
 		display: flex;
 	    flex-direction: column;
