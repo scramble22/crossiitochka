@@ -88,6 +88,7 @@ a {
 .abag {
 	height: 254px; 
 	width: 372px;
+	border-radius: 17px;
 }
 
 .cards {
