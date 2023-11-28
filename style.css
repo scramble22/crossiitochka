@@ -8,23 +8,28 @@
 
 /*хедер*/
 .header {
-	display: flex;
-	height: 110px;
-	border-bottom: 1px solid #A1A6B4;
-	justify-content: space-between;
+	    display: flex;
+    height: 110px;
+    border-bottom: 1px solid #A1A6B4;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo {
 	padding-top: 30px;	
-	padding-left: 140px;
 	padding-bottom: 16.58px;
+	padding-right: 663px;
+}
+
+.header-plus {
+	display: flex;
+
 }
 
 .links {
 	flex-wrap: wrap;
-	margin-right: 150px;
-  margin-top: auto;
-  margin-bottom: auto;
+  	margin-top: auto;
+  	margin-bottom: auto;
 }
 /*хедер*/
 
@@ -35,10 +40,8 @@ main{
 }
 
 h2{
-	text-align: left; 
-	margin-left: 140px;
 	margin-top: 0;
-	padding-top: 25px;
+    padding-top: 25px;
 }
 
 h3 {
@@ -63,6 +66,17 @@ h4 {
 
 a {
 	text-decoration:none;
+}
+
+.collection {
+    display: flex;
+    justify-content: center;
+}
+
+.collection2 {
+    display: flex;
+    justify-content: flex-start;
+    width: 1140px;
 }
 
 .container {
@@ -423,6 +437,10 @@ p {
 
 	.container-cross-big {
 		height: 1858px;
+	}
+
+	.cont-desc {
+		width: auto;
 	}
 
 } 
